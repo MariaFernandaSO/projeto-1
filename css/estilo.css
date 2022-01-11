@@ -1,0 +1,229 @@
+/*.foto2{
+    margin-left: 800px;
+    padding-bottom: 30px;
+    font-family: 'Ubuntu', sans-serif;
+    
+}*/
+@import url('https://fonts.googleapis.com/css2?family=Viga&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+/*Inicio do cabeçalho*/
+body{
+    min-height: 100vh;
+    min-width: 300px;
+    max-width: 100%;
+    background-attachment: cover;
+}
+.fundo{
+    background-color: #06111C;
+    padding-bottom: 90px;
+    
+}
+header > h1{
+    font-family:'Viga', sans-serif;
+    color: #BB2020;
+    padding-top: 70px;
+    padding-left: 18px;
+    font-size: 40px;
+}
+.pesquisa{
+    margin-left: 500px;
+    margin-top: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+
+}
+.pesquisa2{
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: #BB2020;
+    color: #BEC7C7;
+}
+.pesquisa2:hover{
+    background-color: #BEC7C7;
+    color: white;
+}
+.entrar{
+    margin-left: 40px;
+    padding: 16px 30px;
+    border: none;
+    border-radius: 10px;
+    background-image: url(../imagens/icons8-usuário-16.png);
+    background-repeat: no-repeat;
+    margin-left: 10px;
+    background-position: left center;
+    background-color: #EBEBEB;
+   
+}
+.entrar:hover{
+    background-color: #BB2020;
+    color: #EBEBEB;
+    transition: 0.5s;
+}
+/*Fim do cabeçalho*/
+/*Inico do menu de navegação*/
+nav{
+    background-color: #06111C;
+    padding-bottom: 10px;
+}
+nav > a{
+    padding-left: 20px;
+    text-decoration: none;
+    color: #BEC7C7;
+    font-size: 18px;
+}
+nav > a:hover{
+    background-color: #BB2020;
+    border-radius: 10px;
+    padding: 10px;
+    transition: 0.5s;
+}
+/*Fim do inicio de navegação*/
+/*Inicio da parte de produtos*/
+.produtos{
+    text-align: center;
+    padding-top: 60px;
+    font-family: 'Bebas Neue', cursive;
+}
+.imagem1{
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.texto{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 22px;
+    padding-bottom: 60px;
+}  /*Fim da parte de produtos*/
+.redes{     /*Inicio redes socias*/
+    background-image: linear-gradient(to right, #FFEB4D, #bb20209a);
+    padding-top: 40px;
+    font-size: 22px;
+    font-family: 'Bebas Neue', cursive;
+    padding-bottom: 20px;
+    
+}
+.what2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.inst2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+/*Fim das redes socias*/
+/*Inicio parte serviços */
+.servicosp{
+    background-color: #06111C;
+    color: white;
+}  
+.servico1{
+    text-align: center;
+    padding: 30px 0px 30px 0px;
+}
+.dolado{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-bottom: 30px;
+}
+.lista{
+    list-style: '\2714';
+    padding-right: 4px;
+    font-size: 18px;
+}
+/*Fim da parte serviços*/
+/*Inicio mapa*/
+.numero4{
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 28px;
+}
+/*Fim mapa*/
+/*Inicio dica*/
+.textodica{
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 28px;
+    padding: 40px 0px;
+}
+.imagemdica{
+    display: flex;
+    flex-direction: row;
+    padding: 10px ;
+    border-radius: 20px;
+    margin: 0px 20px;
+    border: 2px solid #BB2020;
+
+}
+.paradica{
+    text-indent: 14px;
+    text-align: justify;
+    font-size: 20px;
+}
+/*Fim da dica*/
+/*Inicio do rodapé*/
+.mundo{
+    background-color: #06111C;
+    color: #06111C;
+    margin-top: 80px;
+    padding-bottom: 26px;
+}
+.rodape{
+    background-color: #121317;
+    color: white;
+    padding-bottom: 180px;
+}
+.textomenu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 24px;
+    padding-top: 30px;
+}
+.frente{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+    color: white;
+}
+.escuro{
+    color: #121317;
+}
+.titulo{
+    font-family:'Viga', sans-serif;
+    color: #BB2020;
+    font-size: 40px;
+}
+.lista2{
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    list-style: none;
+    height: 30px;
+}
+.lista3:hover{
+    color: #BB2020;
+}
+.lista4{
+    font-size: 18px;
+    height: 30px;
+    text-decoration: none;
+    list-style: none;
+}

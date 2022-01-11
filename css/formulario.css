@@ -1,0 +1,9 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+   height: 100vh;
+   background-image: linear-gradient(to right, (url(../imagens/shadrach-warid--gqb3xbGa5Y-unsplash.jpg)), transparent );
+}
+

@@ -1,9 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Viga&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+
+
 *{
     margin: 0px;
     padding: 0px;
 }
-body{
-   height: 100vh;
-   background-image: linear-gradient(to right, (url(../imagens/shadrach-warid--gqb3xbGa5Y-unsplash.jpg)), transparent );
+.fundo{
+    background-color: #06111C;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    max-width: 1500px;
+}
+.tiulo{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 80px;
+    font-family:'Viga', sans-serif;
+    font-size: 40px;
+    color: #BB2020;
+    text-justify: auto;
+}
+.navegacao{
+    display: flex;
+    flex-direction: row;
+    background-color: #06111C;
+}
+.menuLinks{
+    margin: 20px 0px 10px 30px;
+    text-decoration: none;
+    color: #BEC7C7;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 19px;
+}
+.menuLinks:hover{
+    background-color: #BB2020;
+    padding: 4px 16px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.imgtext{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+    font-family: 'Raleway', sans-serif;
+}
+.secao{
+    border: 1px solid transparent;
+    text-align: center;
+}
+.botoes{
+    padding: 10px 80px 2px 0px;
+    text-align: center;
+}
+.rotulo{
+    font-family: 'Raleway', sans-serif;
+    padding-top: 20px;
+    text-align: left;
+}
+.secao2{
+    margin-top: 10px;
+}
+.botao1{
+    margin-top: 20px;
+    padding: 10px 95px;
+    text-align: center;
+    background-color: #BB2020;
+    color: #06111C;
+    border: none;
+}
+.botao1:hover{
+    background-color: #bb2020d3;
+    color: #BEC7C7;
+    transition: 0.5s;
+}
+.cadastro{
+    margin-top: 30px;
+    font-family: 'Raleway', sans-serif;
+}
+.link2{
+    text-decoration: none;
+    color: #BB2020;
+}
+.link2:hover{
+    background-color: #06111C;
+    color: #BEC7C7;
+    padding: 2px 10px 2px 6px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+@media (max-width: 369px){
+    .formulario{
+        text-align: center;
+        text-justify: auto;
+        align-items: center;
+    }
+}
+
+@media (max-width: 466px){
+    .tiulo{
+        text-align: center;
+        text-justify: auto;
+        padding: 0;
+        margin: 0;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .navegacao{
+        display: flex;
+        flex-direction: column;
+    }
 }
 
